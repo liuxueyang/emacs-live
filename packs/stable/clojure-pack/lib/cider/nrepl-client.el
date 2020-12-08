@@ -73,7 +73,7 @@
 (require 'cl-lib)
 (require 'nrepl-dict)
 (require 'queue)
-(require 'tramp)
+;; (require 'tramp)
 
 
 ;;; Custom

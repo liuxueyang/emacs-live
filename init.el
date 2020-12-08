@@ -22,6 +22,8 @@
 
 (message (concat "\n\n" live-ascii-art-logo "\n\n"))
 
+(add-to-list 'package-archives '("melpa" . "http://elpa.emacs-china.org/melpa/") t)
+
 (add-to-list 'command-switch-alist
              (cons "--live-safe-mode"
                    (lambda (switch)

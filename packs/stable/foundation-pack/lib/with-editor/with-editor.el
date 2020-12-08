@@ -82,8 +82,8 @@
 (require 'cl-lib)
 (require 'dash)
 (require 'server)
-(require 'tramp)
-(require 'tramp-sh nil t)
+;; (require 'tramp)
+;; (require 'tramp-sh nil t)
 
 (and (require 'async-bytecomp nil t)
      (memq 'magit (bound-and-true-p async-bytecomp-allowed-packages))

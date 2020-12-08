@@ -581,7 +581,7 @@ When ARG is t, exit with current text, ignoring the candidates."
              (user (match-string 2 ivy-text))
              (rest (match-string 3 ivy-text))
              res)
-         (require 'tramp)
+         ;; (require 'tramp)
          (dolist (x (tramp-get-completion-function method))
            (setq res (append res (funcall (car x) (cadr x)))))
          (setq res (delq nil res))

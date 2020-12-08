@@ -84,7 +84,7 @@ project inference will take place."
 (require 'cider-common)
 (require 'cider-compat)
 (require 'cider-debug)
-(require 'tramp-sh)
+ ;; (require 'tramp-sh)
 
 (require 'seq)
 
